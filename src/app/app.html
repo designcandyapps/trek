@@ -1,0 +1,12 @@
+<mgl-map 
+    [style]="'mapbox://styles/mapbox/streets-v12'"
+    [zoom]="18" 
+    [center]="[-95.3934714787741, 29.736662532594504]"
+    [pitch]="25"
+    [bearing]="0"
+    [maxZoom]="18"
+    [minZoom]="10"
+    (mapCreate)="onMapCreate($event)"
+>
+    <mgl-marker [lngLat]="[-95.3934714787741, 29.736662532594504]" />
+</mgl-map>
